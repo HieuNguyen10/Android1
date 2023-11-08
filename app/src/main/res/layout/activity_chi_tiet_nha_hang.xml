@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.ChiTietNhaHang">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#00C3C3C3"
+        >
+
+        <TextView
+            android:padding="10px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CHI TIẾT NHÀ HÀNG"
+            android:textAlignment="center"
+            android:textSize="10pt"
+            android:textStyle="bold|italic" />
+        
+        <TextView
+            android:id="@+id/tvMNH"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FA0000"
+            android:text="Mã nhà hàng : "
+            android:textSize="8pt"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/tvTNH"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#0800FA"
+            android:text="Tên nhà hàng : "
+            android:textSize="8pt"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/tvDCNH"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#CC00FA"
+            android:text="Địa chỉ nhà hàng : "
+            android:textSize="8pt"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/tvMTNH"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#D3FA6C00"
+            android:text="Mô tả nhà hàng : "
+            android:textSize="8pt"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/tvSDT"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#00FA53"
+            android:text="Số điện thoại : "
+            android:textSize="8pt"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/tvGMC"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#00F2FA"
+            android:text="Giờ mở cửa : "
+            android:textSize="8pt"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/btnTL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Trở lại"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

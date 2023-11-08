@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SQLtest</string>
+    <string name="db_name">nhaHang.sql</string>
+</resources>
